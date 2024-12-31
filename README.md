@@ -2,6 +2,8 @@
 
 An example project to show an error when using rush v5.147.0 with pnpm v9.13.2.
 
+[[rush] ERROR: unacceptable kind of an object to dump (undefined) #5053](https://github.com/microsoft/rushstack/issues/5053).
+
 ## dev environment
 
 1. `docker build --pull -t rush-pnpm-dev .`
