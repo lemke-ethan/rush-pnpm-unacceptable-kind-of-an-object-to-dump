@@ -12,4 +12,11 @@ An example project to show an error when using rush v5.147.0 with pnpm v9.13.2.
 1. clone repo into `/home/devuser/git`
 1. `rush update`
 1. change `rushVersion` in `rush.json` to `"5.147.0"`
+1. add a dev dependency to `foo`
+1. `rush update`
+
+or
+
+1. clone repo into a new directory
+1. change `rushVersion` in `rush.json` to `"5.147.0"`
 1. `rush update`
